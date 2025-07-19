@@ -569,7 +569,7 @@ def find_tool_feature_matcher_combination(
             feature_type = "superpoint_aachen"
 
         if matcher_type == "any":
-            matcher_type = "superglue"
+            matcher_type = "superpoint+lightglue"
         elif matcher_type == "NN":
             matcher_type = "NN-mutual"
 
