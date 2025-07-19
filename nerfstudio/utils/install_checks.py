@@ -36,7 +36,6 @@ def check_colmap_installed(colmap_cmd: str):
     if out.returncode != 0:
         CONSOLE.print("[bold red]Could not find COLMAP. Please install COLMAP.")
         print("See https://colmap.github.io/install.html for installation instructions.")
-        sys.exit(1)
 
 
 def check_curl_installed():
